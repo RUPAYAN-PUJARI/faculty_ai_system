@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environments and sensitive info
+.env
+.venv
+env/
+venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Processed data and FAISS indices
+processed/
+vector_db/
+
+# Embeddings and artifact metadata
+embeddings/*.npy
+embeddings/*.pkl
+embeddings/*_meta.json
+
+# Generated metadata in data folder
+data/faculty_metadata.json
+
+# Large image datasets (source images for embeddings)
+faculty_images/
+scholarship_images/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log

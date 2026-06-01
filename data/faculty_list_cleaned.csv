@@ -1,0 +1,105 @@
+S.No,Department,Name of Faculty,Highest Degree,University,Area of Specialization,Date of Joining,Experience,Designation at Joining,Present Designation,Date of Promotion,Association Type,Contract Type,Currently Associated,Date of Leaving,photo_path
+1,Computer Science & Engineering,Dr. Ananya Kanjilal,Ph.D,JU,Computer Science and Engineering,01/11/2000,25 Years 4 Months,Lecturer,Professor,01-07-2024,Regular,,Y,,1.jpg
+2,Computer Science & Engineering,Dr. Bikromadittya Mondal,Ph.D,CU,Computer Science and Engineering,03/09/2005,20 Years 6 Months,Lecturer,Professor,01-07-2024,Regular,,Y,,2.jpg
+3,Computer Science & Engineering,Dr. Nabanita Das,Ph.D,JU,"Network, Parallel Processing",19/04/2023,2 Years 10 Months,Professor,Professor,19-04-2023,Contractual,Fulltime,Y,,3.jpg
+4,Computer Science & Engineering,Dr. Jayeeta Chanda,Ph.D,JU,Computer Science and Engineering,22/08/2002,23 Years 6 Months,Lecturer,Associate Professor,03-11-2015,Regular,,Y,,4.jpg
+5,Computer Science & Engineering,Dr. Pratap Chandra Mandal,Ph.D,IIIT Kalyani,Computer Science and Engineering,07/08/2007,18 Years 7 Months,Lecturer,Associate Professor,29-01-2025,Regular,,Y,,5.jpg
+6,Computer Science & Engineering,Ms. Jhuma Karmakar,M.Tech,CU,Computer Sc. & Application,02/03/2002,24 Years,Lecturer,Assistant Professor,,Regular,,Y,,6.jpg
+7,Computer Science & Engineering,Mr. Subhasis Mallick,M.E.,WBUT,Computer Science and Engineering,25/06/2002,23 Years 8 Months,Lecturer,Assistant Professor,,Regular,,Y,,7.jpg
+8,Computer Science & Engineering,Mr. Amlan Raychaudhuri,M.Tech,CU,Computer Science and Engineering,03/08/2004,21 Years 7 Months,Lecturer,Assistant Professor,,Regular,,Y,,8.jpg
+9,Computer Science & Engineering,Mr. Somenath Roy Choudhury,M.E.,JU,Computer Engineering,21/12/2005,20 Years 2 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,9.jpg
+10,Computer Science & Engineering,Mr. Sibasis Senapati,M.Tech,CU,Computer Science and Engineering,16/03/2006,19 Years 11 Months,Lecturer,Assistant Professor,,Regular,,Y,,10.jpg
+11,Computer Science & Engineering,Mr. Sudip Kundu,M.Tech,WBUT,Software Engineering,24/11/2008,17 Years 3 Months,Lecturer,Assistant Professor,,Regular,,Y,,11.jpg
+12,Computer Science & Engineering,Mr. Suvadeep Bhattacharjee,MS,University of Sussex (UK),Intelligent Systems,12/06/2009,16 Years 8 Months,Lecturer,Assistant Professor,,Regular,,Y,,12.jpg
+13,Computer Science & Engineering,Ms. Soumi Tokdar,M.Tech,NIT Durgapur,Computer Science and Engineering,06/08/2013,12 Years 7 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,13.jpg
+14,Computer Science & Engineering,Ms. Ayesha Ali,M.Tech,Visvesvaraya Technological University,Computer Science and Engineering,16/06/2016,9 Years 8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,14.jpg
+15,Computer Science & Engineering,Ms. Jahnabi Dutta,M.Tech,MAKAUT,Computer Science and Engineering,21/06/2016,9 Years 8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,15.jpg
+16,Computer Science & Engineering,Ms. Piu Upadhyay,M.Tech,WBUT,Computer Science and Engineering,27/01/2017,9 Years 1 Month,Assistant Professor,Assistant Professor,,Regular,,Y,,16.jpg
+17,Computer Science & Engineering,Ms. Priyanka Goswami,M.Tech,CU,Computer Science and Engineering,31/01/2017,9 Years 1 Month,Assistant Professor,Assistant Professor,,Regular,,Y,,17.jpg
+18,Computer Science & Engineering,Mr. Amartya Dutta,M.Tech,CU,Computer Science and Engineering,12/06/2018,7 Years 8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,18.jpg
+19,Computer Science & Engineering,Dr. Somali Sikder,Ph.D,MAKAUT,Computer Science and Engineering,03/07/2024,1 Year 8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,19.jpg
+20,Computer Science & Engineering,Dr. Susmita Dey,Ph.D,MAKAUT,Computer Science and Engineering,03/07/2024,1 Year 8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,20.jpg
+21,Computer Science & Engineering,Ms. Nayana Dey,M.Tech,MAKAUT,Computer Science and Engineering (OCDMA Technology),30/08/2022,3 Years 6 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,21.jpg
+22,Computer Science & Engineering,Mr. Proshanta Sarkar,M.Tech,IIEST Shibpur,Image Processing,06/06/2023,2 Years 9 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,22.jpg
+23,Computer Science & Engineering,Ms. Imama Ajmi,M.Tech,Aliah University,Computer Science and Engineering,04/10/2024,1 Year 5 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,23.jpg
+24,Computer Science & Engineering,Mr. Sudipta Kumar Dutta,M.Tech,WBUT,Computer Science and Engineering,04/03/2025,1 Year,Assistant Professor,Assistant Professor,,Regular,,Y,,24.jpg
+25,Computer Science & Engineering,Ms. Arpita De,M.Tech,MAKAUT,Data Science,22/07/2025,7 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,25.jpg
+26,Computer Science & Engineering,Mr. Mangalmay Das,M.Tech,MAKAUT,Computer Science and Engineering,12/08/2025,6 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,26.jpg
+27,Computer Science & Engineering,Ms. Jaitri Paul,M.Tech,MAKAUT,Information Security,30/08/2025,6 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,27.jpg
+28,Electronics & Communication Engineering,Prof. (Dr.) Ivy Majumdar,Ph.D (Engg.),Jadavpur University,Image Processing,03-01-2000,26 Years,Lecturer,Professor,01-07-2024,Regular,,Y,,28.jpg
+29,Electronics & Communication Engineering,Prof. (Dr.) Sutapa Mukherjee,Ph.D,University of Calcutta,High Frequency Communication,01-07-2002,24 Years,Lecturer,Professor,23-02-2008,Regular,,Y,,29.jpg
+30,Electronics & Communication Engineering,Prof. (Dr.) Surajit Mandal,Ph.D (Tech.),University of Calcutta,Applied Optics and Photonics,12-05-2009,17 Years,Lecturer,Professor,01-07-2024,Regular,,Y,,30.jpg
+31,Electronics & Communication Engineering,Ms. Rashmita Mishra,M.Tech,NIT Rourkela,Telematics and Signal Processing,17-06-2009,17 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,31.jpg
+32,Electronics & Communication Engineering,Mr. Panthadeb Saha,M.Tech,University of Calcutta,Radio Physics & Electronics,23-06-2005,21 Years,Lecturer,Assistant Professor,,Regular,,Y,,32.jpg
+33,Electronics & Communication Engineering,Ms. Sujata Pal,M.Tech,Jadavpur University,VLSI Design & Microelectronics Technology,23-06-2005,21 Years,Lecturer,Assistant Professor,,Regular,,Y,,33.jpg
+34,Electronics & Communication Engineering,Dr. Debarati Dey Roy,Ph.D,MAKAUT,Nano Electronics,24-06-2005,21 Years,Lecturer,Assistant Professor,,Regular,,Y,,34.jpg
+35,Electronics & Communication Engineering,Dr. Mousam Chatterjee,Ph.D (Tech.),MAKAUT,Wireless Sensor Network,29-04-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,35.jpg
+36,Electronics & Communication Engineering,Dr. Madhumita Sarkar,Ph.D (Tech.),MAKAUT,Optical Communication,13-06-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,36.jpg
+37,Electronics & Communication Engineering,Dr. Susmita Biswas,Ph.D,NIT Durgapur,Microwaves,24-06-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,37.jpg
+38,Electronics & Communication Engineering,Mr. Pushpendu Kanjilal,M.E.,Jadavpur University,Power Electronics,23-02-2010,16 Years,Lecturer,Assistant Professor,,Regular,,Y,,38.jpg
+39,Electronics & Communication Engineering,Mr. Arindrajit Chaudhury,M.Tech,University of Burdwan,Microwaves,03-01-2012,14.5 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,39.jpg
+40,Electronics & Communication Engineering,Ms. Pia Sarkar,M.Tech,University of Burdwan,Wireless Communication,04-09-2013,12.5 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,40.jpg
+41,Electronics & Communication Engineering,Mr. Ramesh Kumar,M.Tech,NIT Durgapur,Microelectronics & VLSI Engineering,02-01-2016,10.5 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,41.jpg
+42,Electronics & Communication Engineering,Dr. Vedatrayee Chakraborty,Ph.D (Tech.),University of Calcutta,Photonic Devices,16-06-2016,10 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,42.jpg
+43,Electronics & Communication Engineering,Mr. Mostafa Seikh,M.Tech,University of Calcutta,VLSI Design,02-08-2016,9.9 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,43.jpg
+44,Electronics & Communication Engineering,Ms. Ankita Indu,M.Tech,University of Calcutta,Radio Physics and Electronics,12-06-2018,8 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,44.jpg
+45,Electronics & Communication Engineering,Ms. Arundhuti Sengupta,M.Tech,University of Calcutta,Radio Physics and Electronics,12-06-2018,8 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,45.jpg
+46,Electrical Engineering,Dr. Nandita Sanyal,Ph.D,Jadavpur University,Image Processing,01-08-2003,22+ Years,Lecturer,Professor,01-07-2024,Regular,,Y,,46.jpg
+47,Electrical Engineering,Dr. Sudipta Chakraborty,Ph.D,IIEST,Control Systems,23-05-2002,24 Years,Lecturer,Associate Professor,01-11-2011,Regular,,Y,,47.jpg
+48,Electrical Engineering,Dr. Sutapa Mukherjee,Ph.D,Jadavpur University,Illumination Engineering,23-08-2003,22+ Years,Lecturer,Associate Professor,01-07-2024,Regular,,Y,,48.jpg
+49,Electrical Engineering,Ms. Chandrani Das,M.Tech,Calcutta University,Power Systems & Electrical Machines,22-07-2003,22+ Years,Lecturer,Assistant Professor,,Regular,,Y,,49.jpg
+50,Electrical Engineering,Ms. Madhumita Kundu Mondal,M.Tech,NIT Jamshedpur,Power Systems,24-02-2006,20 Years,Lecturer,Assistant Professor,,Regular,,Y,,50.jpg
+51,Electrical Engineering,Ms. Sujata Saha,M.Tech,Calcutta University,Power Systems & Electrical Machines,04-07-2006,19+ Years,Lecturer,Assistant Professor,,Regular,,Y,,51.jpg
+52,Electrical Engineering,Ms. Anushree Roy,M.Tech,Calcutta University,Power Systems & Electrical Machines,22-07-2006,19+ Years,Lecturer,Assistant Professor,,Regular,,Y,,52.jpg
+53,Electrical Engineering,Mr. Subhasish Das,M.Tech,Calcutta University,Power Systems & Electrical Machines,04-01-2017,9+ Years,Assistant Professor,Assistant Professor,,Regular,,Y,,53.jpg
+54,Electrical Engineering,Mr. Aritra Ghosh,M.Tech,Jadavpur University,Energy Systems,07-03-2017,9+ Years,Assistant Professor,Assistant Professor,,Regular,,Y,,54.jpg
+55,Electrical Engineering,Dr. Argha Kamal Pal,Ph.D,IIT ISM Dhanbad,Nano Dielectrics,29-12-2017,8+ Years,Assistant Professor,Assistant Professor,,Regular,,Y,,55.jpg
+56,Information Technology,Prof. Sabnam Sengupta,Ph.D,Jadavpur University,"Software Engineering, Cloud Computing",27/07/2004,21 Years,Lecturer,Professor & HOD,01/07/2024,Regular,,Y,,56.jpg
+57,Information Technology,Dr. Gitosree Khan,Ph.D,NIT Durgapur,"Cloud Computing, Software Engineering",03/01/2006,19 Years,Lecturer,Associate Professor,01/09/2023,Regular,,Y,,57.jpg
+58,Information Technology,Mr. Balaram Ghosal,M.Tech,IIEST,"Operating System, Network Security",06/08/2008,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,58.jpg
+59,Information Technology,Mr. Sabyasachi Chakraborty,M.Tech,MAKAUT,"Web Data Mining, Block Chain Technology",15/06/2009,16 Years,Lecturer,Assistant Professor,,Regular,,Y,,59.jpg
+60,Information Technology,Ms. Swagata (Gayen) Kundu,M.E.,Jadavpur University,"Object Oriented Programming, DBMS, ML",06/10/2009,16 Years,Lecturer,Assistant Professor,,Regular,,Y,,60.jpg
+61,Information Technology,Ms. Lipi Begam,M.Tech,University of Calcutta,"Big Data, Wireless Sensor Networks",06/02/2010,15 Years,Lecturer,Assistant Professor,,Regular,,Y,,61.jpg
+62,Information Technology,Mr. Asim Kumar Panda,M.Tech,University of Calcutta,IoT & Block Chain,06/09/2013,12 Years,Assistant Professor,Assistant Professor,,Regular,,N,31/01/2026,
+63,Information Technology,Ms. Sudipta Roy,M.Tech,Dr. C.V. Raman University Bilaspur,"Software Engineering, Data Security",16/06/2016,9 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,63.jpg
+64,Information Technology,Mr. Sayantan Chakrabarti,M.Tech,MAKAUT,"Cryptography, Data Security",20/06/2018,7 Years,Assistant Professor,Assistant Professor,,Regular,,N,19/09/2025,
+65,Information Technology,Mr. Himadri Sekhar Mondal,M.E.,Jadavpur University,Software Engineering,23/08/2022,3 Years,Assistant Professor,Assistant Professor,,Regular,,N,31/01/2026,
+66,Information Technology,Ms. Protyasha Mukherjee,M.Tech,MAKAUT,"Internet of Things, Cryptography and Network Security",30/08/2022,3 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,66.jpg
+67,Information Technology,Mr. Fakruddin Ali Ahmed,M.E.,Jadavpur University,Software Engineering,16/01/2024,1 Year,Assistant Professor,Assistant Professor,,Regular,,N,13/08/2025,
+68,Information Technology,Mr. Ranjit Haldar,M.E.,Jadavpur University,Software Engineering,15/02/2024,1 Year,Assistant Professor,Assistant Professor,,Regular,,N,27/02/2026,68.jpg
+69,Information Technology,Ms. Siparna Rabi Das,M.Tech,MAKAUT,CSE,28/08/2024,1 Year,Assistant Professor,Assistant Professor,,Regular,,N,28/02/2026,69.jpg
+70,Information Technology,Mr. Ritorshi Pal,M.Tech,University of Calcutta,CSE,19/08/2025,9 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,70.jpg
+71,Information Technology,Mr. Udayan Misra,M.Tech,University of Calcutta,CSE,19/08/2025,9 Months,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,71.jpg
+72,Information Technology,Mr. Avijit Maity,M.Tech,University of Calcutta,CSE,20/08/2025,9 Months,Assistant Professor,,,Contract,Full Time,N,31/12/2025,
+73,Information Technology,Mr. Chiranjeet Sarkar,M.Tech,MAKAUT,Machine Learning and Deep Learning,01/08/2025,4 Months,Assistant Professor,Assistant Professor,,Regular,,N,05/02/2025,73.jpg
+74,Information Technology,Mr. Akshay Bera,M.Tech,MAKAUT,Artificial Intelligence,30/08/2025,8 Months,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,74.jpg
+75,Information Technology,Ms. Ushashi Chowdhury,M.Tech,MAKAUT,IT,26/08/2025,8 Months,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,75.jpg
+76,Information Technology,Ms. Soumi Mondal Bera,M.Tech,UEM,CSE,21/08/2025,8 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,
+77,Information Technology,Ms. Dipa Mondal,M.Tech,MAKAUT,CSE,19/02/2026,3 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,
+78,Information Technology,Mr. Raja Sarkar,M.E.,Jadavpur University,Software Engineering,26/02/2026,2 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,
+79,Information Technology,Ms. Dipanwita Saha,M.Tech,MAKAUT,CSE,05/03/2026,2 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,
+80,Information Technology,Ms. Sonia Singha,M.Tech,MAKAUT,IT,10/03/2026,2 Months,Assistant Professor,Assistant Professor,,Regular,,Y,,
+81,Information Technology,Mr. Subhasis Dutta,M.Tech,MAKAUT,IT,01/04/2026,1 Month,Assistant Professor,Assistant Professor,,Regular,,Y,,
+82,Applied Science & Humanities,Dr. Papri Saha,Ph.D,Jadavpur University,Physics,18-10-2005,21 Years,Lecturer,Associate Professor,01-07-2024,Regular,,Y,,82.jpg
+83,Applied Science & Humanities,Dr. Ranjana Goswami,Ph.D,Calcutta University,Physics,08-08-2023,3 Years,Professor,Professor,31-08-2024,Contract,Full Time,Y,,83.jpg
+84,Applied Science & Humanities,Dr. Subhasish Pradhan,Ph.D,Jadavpur University,Physics,04-09-2008,18 Years,Lecturer,Assistant Professor,,Regular,,Y,,84.jpg
+85,Applied Science & Humanities,Dr. Chirantan Dey,Ph.D,Jadavpur University,Physics,20-08-2024,2 Years,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,85.jpg
+86,Applied Science & Humanities,Dr. Rupa Pal,Ph.D,Kalyani University,Chemistry,01-02-2002,24 Years,Lecturer,Associate Professor,01-02-2016,Regular,,Y,,86.jpg
+87,Applied Science & Humanities,Dr. K Prabakaran,Ph.D,University of Madras,Analytical Chemistry,21-07-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,87.jpg
+88,Applied Science & Humanities,Dr. Rupa Haldar,Ph.D,Jadavpur University,Chemistry,09-01-2024,2 Years,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,88.jpg
+89,Applied Science & Humanities,Dr. Mandira Nandi,Ph.D,Jadavpur University,Chemistry,11-02-2025,1 Year,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,89.jpg
+90,Applied Science & Humanities,Mr. Suraj Islam,M.Sc,APC College WBSU,Physics,11-08-2023,3 Years,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,90.jpg
+91,Applied Science & Humanities,Dr. Kakali Karmakar Sur,Ph.D,B.E.S.U. Shibpur,Mathematics,09-08-2008,18 Years,Lecturer,Assistant Professor,,Regular,,Y,,91.jpg
+92,Applied Science & Humanities,Dr. Debabrata Das,Ph.D,I.I.E.S.T. Shibpur,Mathematics,06-08-2008,18 Years,Lecturer,Assistant Professor,,Regular,,Y,,92.jpg
+93,Applied Science & Humanities,Dr. Rikhiya Dhar,Ph.D,Calcutta University,Mathematics,01-07-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,93.jpg
+94,Applied Science & Humanities,Dr. Binoy Krishna Biswas,Ph.D,Jadavpur University,Mechanical Engineering,27-04-2007,19 Years,Lecturer,Assistant Professor,,Regular,,Y,,94.jpg
+95,Applied Science & Humanities,Mr. Amal Mondal,M.E.,B.E.S.U. Shibpur,Mechanical Engineering,02-02-2010,16 Years,Lecturer,Assistant Professor,,Regular,,Y,,95.jpg
+96,Applied Science & Humanities,Mr. Sandip Palit,M.Tech,MAKAUT,Mechanical Engineering,28-08-2024,2 Years,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,96.jpg
+97,Applied Science & Humanities,Mr. Arup Ratan Bera,M.E.,Jadavpur University,Mechanical Engineering,20-07-2022,4 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,97.jpg
+98,Applied Science & Humanities,Ms. Bhaswati Bhattacharya,M.Tech,MAKAUT,Electronics & Communication,16-08-2022,4 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,98.jpg
+99,Applied Science & Humanities,Ms. Debasmita Sengupta,M.Tech,UEM,Computer Science,26-07-2022,4 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,99.jpg
+100,Applied Science & Humanities,Dr. Dolon Champa Das,Ph.D,Rajib Gandhi University,English Language Teaching,30-07-2009,17 Years,Lecturer,Assistant Professor,,Regular,,Y,,100.jpg
+101,Applied Science & Humanities,Ms. Debjani Chakraborty,M.A.,Kalyani University,Post Colonial Literature,12-08-2013,13 Years,Assistant Professor,Assistant Professor,,Regular,,Y,,101.jpg
+102,Applied Science & Humanities,Mr. Abhijit Gupta,MBA,Calcutta University,Management,15-01-2010,16 Years,Lecturer,Assistant Professor,,Regular,,Y,,102.jpg
+103,Applied Science & Humanities,Ms. Shaswati De,M.Phil,Utkal University,Indian English Literature,13-01-2025,1 Year,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,103.jpg
+104,Applied Science & Humanities,Dr. Sankalan Dey,Ph.D,Calcutta University,Biology,02-04-2024,2 Years,Assistant Professor,Assistant Professor,,Contract,Full Time,Y,,104.png

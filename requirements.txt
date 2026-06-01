@@ -1,0 +1,9 @@
+faiss-cpu
+numpy
+sentence-transformers
+facenet-pytorch
+flask
+pillow
+python-dotenv
+requests
+beautifulsoup4

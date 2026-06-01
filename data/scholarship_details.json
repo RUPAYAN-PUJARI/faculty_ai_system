@@ -1,0 +1,277 @@
+[
+  {
+    "id": "minority_scholarship_001",
+    "title": "Pre-Matric, Post Matric and Merit-Cum-Means Scholarship Schemes for Minorities",
+    "short_name": "Minority Scholarship Schemes",
+    "scholarship_type": "Central Government",
+    "state": "India",
+    "provider": "Ministry of Minority Affairs",
+    "official_url": "https://scholarships.gov.in/",
+    "overview": "Financial assistance for minority students to pursue school, higher, technical, and professional education.",
+    "categories": ["Pre-Matric", "Post-Matric", "Merit-Cum-Means"],
+    "target_groups": ["Minority students"],
+    "eligible_communities": [
+      "Muslims",
+      "Sikhs",
+      "Christians",
+      "Buddhists",
+      "Jains",
+      "Parsis"
+    ],
+    "eligible_courses": ["School", "UG", "PG", "Technical", "Professional"],
+    "eligibility": {
+      "minimum_marks_percent": 50,
+      "maximum_family_income": 250000,
+      "domicile_required": false,
+      "state_quota_applicable": true
+    },
+    "special_conditions": [
+      "30% reservation for girls",
+      "Online application through NSP"
+    ],
+    "application_mode": "Online",
+    "keywords": [
+      "minority",
+      "NSP",
+      "government scholarship",
+      "technical education"
+    ]
+  },
+  {
+    "id": "aicte_pragati_001",
+    "title": "AICTE Pragati Scholarship Scheme for Girl Students",
+    "short_name": "Pragati Scholarship",
+    "scholarship_type": "Central Government",
+    "state": "India",
+    "provider": "AICTE",
+    "official_url": "https://www.aicte-india.org/",
+    "overview": "Scholarship for girls pursuing technical education.",
+    "categories": ["Degree", "Diploma", "Technical Education"],
+    "target_groups": ["Girl students"],
+    "eligible_courses": ["Engineering", "Diploma", "Technical Education"],
+    "eligibility": {
+      "maximum_family_income": 800000,
+      "maximum_girls_per_family": 2
+    },
+    "benefits": {
+      "tuition_fee_limit": 30000,
+      "incidental_amount_per_month": 2000,
+      "duration_months": 10
+    },
+    "application_mode": "Online",
+    "keywords": ["girls scholarship", "AICTE", "technical education"]
+  },
+  {
+    "id": "aicte_saksham_001",
+    "title": "AICTE Saksham Scholarship Scheme",
+    "short_name": "Saksham Scholarship",
+    "scholarship_type": "Central Government",
+    "state": "India",
+    "provider": "AICTE",
+    "official_url": "https://www.aicte-india.org/",
+    "overview": "Scholarship for specially abled students pursuing technical education.",
+    "categories": ["Degree", "Diploma", "Technical Education"],
+    "target_groups": ["Specially abled students"],
+    "eligible_courses": ["Degree", "Diploma", "Technical Education"],
+    "eligibility": {
+      "minimum_disability_percent": 40,
+      "maximum_family_income": 800000
+    },
+    "benefits": {
+      "tuition_fee_limit": 30000,
+      "incidental_amount_per_month": 2000,
+      "duration_months": 10
+    },
+    "application_mode": "Online",
+    "keywords": ["disabled students", "AICTE", "technical education"]
+  },
+  {
+    "id": "pmss_001",
+    "title": "Prime Minister Scholarship Scheme",
+    "short_name": "PMSS",
+    "scholarship_type": "Central Government",
+    "state": "India",
+    "provider": "Ministry of Home Affairs",
+    "official_url": "http://www.desw.gov.in/prime-ministers-scholarship-scheme-pmss",
+    "overview": "Scholarship for dependent wards and widows of CAPFs, Assam Rifles, and State Police Personnel.",
+    "categories": ["Professional Courses", "Technical Courses"],
+    "target_groups": [
+      "Dependent wards",
+      "Widows of CAPFs",
+      "State Police Personnel families"
+    ],
+    "eligible_courses": ["Professional Courses", "Technical Courses"],
+    "eligibility": {
+      "minimum_marks_percent": 60,
+      "renewal_marks_percent": 50
+    },
+    "benefits": {
+      "boys_amount_per_month": 2500,
+      "girls_amount_per_month": 3000
+    },
+    "application_mode": "Online",
+    "keywords": ["PMSS", "police scholarship", "CAPF", "armed forces"]
+  },
+  {
+    "id": "svmcm_001",
+    "title": "Swami Vivekananda Merit-Cum-Means Scholarship Scheme",
+    "short_name": "SVMCM",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Government of West Bengal",
+    "official_url": "https://svmcm.wbhed.gov.in/",
+    "overview": "Scholarship for meritorious students from economically weaker families in West Bengal.",
+    "categories": ["Higher Secondary", "UG", "PG", "Technical Education"],
+    "target_groups": ["Economically weaker students"],
+    "eligible_courses": [
+      "Science",
+      "Arts",
+      "Commerce",
+      "Engineering",
+      "Medical",
+      "Technical",
+      "Professional"
+    ],
+    "eligibility": {
+      "minimum_marks_hs_ug": 60,
+      "minimum_marks_pg_general": 53,
+      "minimum_marks_pg_technical": 55,
+      "maximum_family_income": 250000
+    },
+    "benefits": {
+      "pg_amount_per_year": 60000
+    },
+    "application_mode": "Online",
+    "keywords": ["SVMCM", "West Bengal", "merit scholarship"]
+  },
+  {
+    "id": "aikyashree_001",
+    "title": "Aikyashree Scholarship Scheme",
+    "short_name": "Aikyashree",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Government of West Bengal",
+    "official_url": "http://wbmdfcscholarship.in/",
+    "overview": "Scholarship scheme for minority students in West Bengal.",
+    "categories": ["Pre-Matric", "Post-Matric", "Merit-Cum-Means"],
+    "target_groups": ["Minority students"],
+    "eligible_courses": [
+      "Class I-X",
+      "Class XI",
+      "UG",
+      "PG",
+      "PhD",
+      "Technical",
+      "Professional"
+    ],
+    "eligibility": {
+      "minimum_marks_percent": 50,
+      "maximum_family_income": 200000,
+      "domicile_required": true,
+      "state_requirement": "West Bengal"
+    },
+    "benefits": {
+      "prematric_range_per_year": "1100-11000 INR",
+      "postmatric_range_per_year": "10200-16500 INR",
+      "merit_cum_means_range_per_year": "22000-33000 INR"
+    },
+    "application_mode": "Online",
+    "keywords": ["minority", "West Bengal", "Aikyashree"]
+  },
+  {
+    "id": "oasis_001",
+    "title": "OASIS Scholarship",
+    "short_name": "OASIS",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Backward Classes Welfare Department, Government of West Bengal",
+    "official_url": "https://oasis.gov.in/",
+    "overview": "Scholarship portal for SC, ST, and OBC students in West Bengal.",
+    "categories": ["Pre-Matric", "Post-Matric"],
+    "target_groups": ["SC students", "ST students", "OBC students"],
+    "eligibility": {
+      "sc_st_maximum_family_income": 250000,
+      "obc_maximum_family_income": 100000,
+      "domicile_required": true,
+      "state_requirement": "West Bengal"
+    },
+    "application_mode": "Online",
+    "keywords": ["SC", "ST", "OBC", "West Bengal"]
+  },
+  {
+    "id": "nabanna_001",
+    "title": "West Bengal Chief Minister Relief Fund Scholarship",
+    "short_name": "Nabanna Scholarship",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Government of West Bengal",
+    "official_url": "http://wbcmo.gov.in/",
+    "overview": "Scholarship for financially weak students studying in West Bengal.",
+    "categories": ["Madhyamik", "Higher Secondary", "UG"],
+    "target_groups": ["Economically weaker students"],
+    "eligibility": {
+      "madhyamik_minimum_marks_percent": 60,
+      "hs_minimum_marks_percent": 60,
+      "ug_minimum_marks_percent": 55,
+      "maximum_family_income": 120000,
+      "domicile_required": true
+    },
+    "special_conditions": [
+      "Cannot receive another government scholarship simultaneously"
+    ],
+    "application_mode": "Offline/Online",
+    "keywords": ["Nabanna", "CM Relief Fund", "West Bengal"]
+  },
+  {
+    "id": "kanyashree_001",
+    "title": "Kanyashree Prakalpa",
+    "short_name": "Kanyashree",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Government of West Bengal",
+    "official_url": "https://www.wbkanyashree.gov.in/",
+    "overview": "Financial support scheme for girls to continue education and prevent child marriage.",
+    "categories": ["School Education", "Girls Welfare"],
+    "target_groups": ["Girl students"],
+    "eligibility": {
+      "maximum_family_income": 250000,
+      "domicile_required": true
+    },
+    "benefits": {
+      "k1_annual_amount": 750,
+      "k2_one_time_grant": 25000
+    },
+    "special_conditions": ["Applicant must remain unmarried"],
+    "application_mode": "Online",
+    "keywords": ["girls scholarship", "West Bengal", "Kanyashree"]
+  },
+  {
+    "id": "wbfs_001",
+    "title": "West Bengal Freeship Scheme",
+    "short_name": "WBFS",
+    "scholarship_type": "State Government",
+    "state": "West Bengal",
+    "provider": "Government of West Bengal",
+    "official_url": "https://wbhed.gov.in/wbfs/",
+    "overview": "Tuition fee waiver scheme for undergraduate technical students in private institutions.",
+    "categories": ["UG", "Engineering", "Technical Education"],
+    "target_groups": ["Economically weaker students"],
+    "eligible_courses": [
+      "Engineering",
+      "Technology",
+      "Pharmacy",
+      "Architecture"
+    ],
+    "eligibility": {
+      "maximum_family_income": 250000,
+      "domicile_required": true,
+      "state_requirement": "West Bengal"
+    },
+    "special_conditions": ["Students under TFW or SVMCM are not eligible"],
+    "benefits": {
+      "tuition_fee_waiver": true
+    },
+    "application_mode": "Online",
+    "keywords": ["WBFS", "fee waiver", "engineering scholarship"]
+  }
+]
