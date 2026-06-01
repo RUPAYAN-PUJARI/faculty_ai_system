@@ -1,0 +1,16 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "count": 10,
+  "ids": [
+    "minority_scholarship_001",
+    "aicte_pragati_001",
+    "aicte_saksham_001",
+    "pmss_001",
+    "svmcm_001",
+    "aikyashree_001",
+    "oasis_001",
+    "nabanna_001",
+    "kanyashree_001",
+    "wbfs_001"
+  ]
+}

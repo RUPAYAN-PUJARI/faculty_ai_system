@@ -1,0 +1,730 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Ananya Kanjilal",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Professor",
+    "photo_path": "1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Dr. Bikromadittya Mondal",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Professor",
+    "photo_path": "2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Nabanita Das",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Professor",
+    "photo_path": "3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dr. Jayeeta Chanda",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Associate Professor",
+    "photo_path": "4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Dr. Pratap Chandra Mandal",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Associate Professor",
+    "photo_path": "5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ms. Jhuma Karmakar",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Mr. Subhasis Mallick",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Mr. Amlan Raychaudhuri",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "8.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Mr. Somenath Roy Choudhury",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "9.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Mr. Sibasis Senapati",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "10.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Mr. Sudip Kundu",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "11.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Mr. Suvadeep Bhattacharjee",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "12.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Ms. Soumi Tokdar",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "13.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Ms. Ayesha Ali",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "14.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Ms. Jahnabi Dutta",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "15.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Ms. Piu Upadhyay",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "16.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Ms. Priyanka Goswami",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "17.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Mr. Amartya Dutta",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "18.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Dr. Somali Sikder",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "19.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Dr. Susmita Dey",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "20.jpg"
+  },
+  {
+    "id": "21",
+    "name": "Ms. Nayana Dey",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "21.jpg"
+  },
+  {
+    "id": "22",
+    "name": "Mr. Proshanta Sarkar",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "22.jpg"
+  },
+  {
+    "id": "23",
+    "name": "Ms. Imama Ajmi",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "23.jpg"
+  },
+  {
+    "id": "24",
+    "name": "Mr. Sudipta Kumar Dutta",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "24.jpg"
+  },
+  {
+    "id": "25",
+    "name": "Ms. Arpita De",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "25.jpg"
+  },
+  {
+    "id": "26",
+    "name": "Mr. Mangalmay Das",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "26.jpg"
+  },
+  {
+    "id": "27",
+    "name": "Ms. Jaitri Paul",
+    "department": "Computer Science & Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "27.jpg"
+  },
+  {
+    "id": "28",
+    "name": "Prof. (Dr.) Ivy Majumdar",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Professor",
+    "photo_path": "28.jpg"
+  },
+  {
+    "id": "29",
+    "name": "Prof. (Dr.) Sutapa Mukherjee",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Professor",
+    "photo_path": "29.jpg"
+  },
+  {
+    "id": "30",
+    "name": "Prof. (Dr.) Surajit Mandal",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Professor",
+    "photo_path": "30.jpg"
+  },
+  {
+    "id": "31",
+    "name": "Ms. Rashmita Mishra",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "31.jpg"
+  },
+  {
+    "id": "32",
+    "name": "Mr. Panthadeb Saha",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "32.jpg"
+  },
+  {
+    "id": "33",
+    "name": "Ms. Sujata Pal",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "33.jpg"
+  },
+  {
+    "id": "34",
+    "name": "Dr. Debarati Dey Roy",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "34.jpg"
+  },
+  {
+    "id": "35",
+    "name": "Dr. Mousam Chatterjee",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "35.jpg"
+  },
+  {
+    "id": "36",
+    "name": "Dr. Madhumita Sarkar",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "36.jpg"
+  },
+  {
+    "id": "37",
+    "name": "Dr. Susmita Biswas",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "37.jpg"
+  },
+  {
+    "id": "38",
+    "name": "Mr. Pushpendu Kanjilal",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "38.jpg"
+  },
+  {
+    "id": "39",
+    "name": "Mr. Arindrajit Chaudhury",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "39.jpg"
+  },
+  {
+    "id": "40",
+    "name": "Ms. Pia Sarkar",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "40.jpg"
+  },
+  {
+    "id": "41",
+    "name": "Mr. Ramesh Kumar",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "41.jpg"
+  },
+  {
+    "id": "42",
+    "name": "Dr. Vedatrayee Chakraborty",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "42.jpg"
+  },
+  {
+    "id": "43",
+    "name": "Mr. Mostafa Seikh",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "43.jpg"
+  },
+  {
+    "id": "44",
+    "name": "Ms. Ankita Indu",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "44.jpg"
+  },
+  {
+    "id": "45",
+    "name": "Ms. Arundhuti Sengupta",
+    "department": "Electronics & Communication Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "45.jpg"
+  },
+  {
+    "id": "46",
+    "name": "Dr. Nandita Sanyal",
+    "department": "Electrical Engineering",
+    "present_designation": "Professor",
+    "photo_path": "46.jpg"
+  },
+  {
+    "id": "47",
+    "name": "Dr. Sudipta Chakraborty",
+    "department": "Electrical Engineering",
+    "present_designation": "Associate Professor",
+    "photo_path": "47.jpg"
+  },
+  {
+    "id": "48",
+    "name": "Dr. Sutapa Mukherjee",
+    "department": "Electrical Engineering",
+    "present_designation": "Associate Professor",
+    "photo_path": "48.jpg"
+  },
+  {
+    "id": "49",
+    "name": "Ms. Chandrani Das",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "49.jpg"
+  },
+  {
+    "id": "50",
+    "name": "Ms. Madhumita Kundu Mondal",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "50.jpg"
+  },
+  {
+    "id": "51",
+    "name": "Ms. Sujata Saha",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "51.jpg"
+  },
+  {
+    "id": "52",
+    "name": "Ms. Anushree Roy",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "52.jpg"
+  },
+  {
+    "id": "53",
+    "name": "Mr. Subhasish Das",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "53.jpg"
+  },
+  {
+    "id": "54",
+    "name": "Mr. Aritra Ghosh",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "54.jpg"
+  },
+  {
+    "id": "55",
+    "name": "Dr. Argha Kamal Pal",
+    "department": "Electrical Engineering",
+    "present_designation": "Assistant Professor",
+    "photo_path": "55.jpg"
+  },
+  {
+    "id": "56",
+    "name": "Prof. Sabnam Sengupta",
+    "department": "Information Technology",
+    "present_designation": "Professor & HOD",
+    "photo_path": "56.jpg"
+  },
+  {
+    "id": "57",
+    "name": "Dr. Gitosree Khan",
+    "department": "Information Technology",
+    "present_designation": "Associate Professor",
+    "photo_path": "57.jpg"
+  },
+  {
+    "id": "58",
+    "name": "Mr. Balaram Ghosal",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "58.jpg"
+  },
+  {
+    "id": "59",
+    "name": "Mr. Sabyasachi Chakraborty",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "59.jpg"
+  },
+  {
+    "id": "60",
+    "name": "Ms. Swagata (Gayen) Kundu",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "60.jpg"
+  },
+  {
+    "id": "61",
+    "name": "Ms. Lipi Begam",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "61.jpg"
+  },
+  {
+    "id": "62",
+    "name": "Mr. Asim Kumar Panda",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "63",
+    "name": "Ms. Sudipta Roy",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "63.jpg"
+  },
+  {
+    "id": "64",
+    "name": "Mr. Sayantan Chakrabarti",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "65",
+    "name": "Mr. Himadri Sekhar Mondal",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "66",
+    "name": "Ms. Protyasha Mukherjee",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "66.jpg"
+  },
+  {
+    "id": "67",
+    "name": "Mr. Fakruddin Ali Ahmed",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "68",
+    "name": "Mr. Ranjit Haldar",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "68.jpg"
+  },
+  {
+    "id": "69",
+    "name": "Ms. Siparna Rabi Das",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "69.jpg"
+  },
+  {
+    "id": "70",
+    "name": "Mr. Ritorshi Pal",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "70.jpg"
+  },
+  {
+    "id": "71",
+    "name": "Mr. Udayan Misra",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "71.jpg"
+  },
+  {
+    "id": "72",
+    "name": "Mr. Avijit Maity",
+    "department": "Information Technology",
+    "present_designation": "",
+    "photo_path": ""
+  },
+  {
+    "id": "73",
+    "name": "Mr. Chiranjeet Sarkar",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "73.jpg"
+  },
+  {
+    "id": "74",
+    "name": "Mr. Akshay Bera",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "74.jpg"
+  },
+  {
+    "id": "75",
+    "name": "Ms. Ushashi Chowdhury",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": "75.jpg"
+  },
+  {
+    "id": "76",
+    "name": "Ms. Soumi Mondal Bera",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "77",
+    "name": "Ms. Dipa Mondal",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "78",
+    "name": "Mr. Raja Sarkar",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "79",
+    "name": "Ms. Dipanwita Saha",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "80",
+    "name": "Ms. Sonia Singha",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "81",
+    "name": "Mr. Subhasis Dutta",
+    "department": "Information Technology",
+    "present_designation": "Assistant Professor",
+    "photo_path": ""
+  },
+  {
+    "id": "82",
+    "name": "Dr. Papri Saha",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Associate Professor",
+    "photo_path": "82.jpg"
+  },
+  {
+    "id": "83",
+    "name": "Dr. Ranjana Goswami",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Professor",
+    "photo_path": "83.jpg"
+  },
+  {
+    "id": "84",
+    "name": "Dr. Subhasish Pradhan",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "84.jpg"
+  },
+  {
+    "id": "85",
+    "name": "Dr. Chirantan Dey",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "85.jpg"
+  },
+  {
+    "id": "86",
+    "name": "Dr. Rupa Pal",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Associate Professor",
+    "photo_path": "86.jpg"
+  },
+  {
+    "id": "87",
+    "name": "Dr. K Prabakaran",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "87.jpg"
+  },
+  {
+    "id": "88",
+    "name": "Dr. Rupa Haldar",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "88.jpg"
+  },
+  {
+    "id": "89",
+    "name": "Dr. Mandira Nandi",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "89.jpg"
+  },
+  {
+    "id": "90",
+    "name": "Mr. Suraj Islam",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "90.jpg"
+  },
+  {
+    "id": "91",
+    "name": "Dr. Kakali Karmakar Sur",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "91.jpg"
+  },
+  {
+    "id": "92",
+    "name": "Dr. Debabrata Das",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "92.jpg"
+  },
+  {
+    "id": "93",
+    "name": "Dr. Rikhiya Dhar",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "93.jpg"
+  },
+  {
+    "id": "94",
+    "name": "Dr. Binoy Krishna Biswas",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "94.jpg"
+  },
+  {
+    "id": "95",
+    "name": "Mr. Amal Mondal",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "95.jpg"
+  },
+  {
+    "id": "96",
+    "name": "Mr. Sandip Palit",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "96.jpg"
+  },
+  {
+    "id": "97",
+    "name": "Mr. Arup Ratan Bera",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "97.jpg"
+  },
+  {
+    "id": "98",
+    "name": "Ms. Bhaswati Bhattacharya",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "98.jpg"
+  },
+  {
+    "id": "99",
+    "name": "Ms. Debasmita Sengupta",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "99.jpg"
+  },
+  {
+    "id": "100",
+    "name": "Dr. Dolon Champa Das",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "100.jpg"
+  },
+  {
+    "id": "101",
+    "name": "Ms. Debjani Chakraborty",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "101.jpg"
+  },
+  {
+    "id": "102",
+    "name": "Mr. Abhijit Gupta",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "102.jpg"
+  },
+  {
+    "id": "103",
+    "name": "Ms. Shaswati De",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "103.jpg"
+  },
+  {
+    "id": "104",
+    "name": "Dr. Sankalan Dey",
+    "department": "Applied Science & Humanities",
+    "present_designation": "Assistant Professor",
+    "photo_path": "104.png"
+  }
+]

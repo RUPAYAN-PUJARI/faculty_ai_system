@@ -19,22 +19,6 @@ venv/
 *.swp
 *.swo
 
-# Processed data and FAISS indices
-processed/
-vector_db/
-
-# Embeddings and artifact metadata
-embeddings/*.npy
-embeddings/*.pkl
-embeddings/*_meta.json
-
-# Generated metadata in data folder
-data/faculty_metadata.json
-
-# Large image datasets (source images for embeddings)
-faculty_images/
-scholarship_images/
-
 # Testing and coverage
 .pytest_cache/
 .coverage
