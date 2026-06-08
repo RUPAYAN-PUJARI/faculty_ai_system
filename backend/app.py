@@ -358,7 +358,7 @@ def create_app() -> Flask:
 
     def _extract_employer_from_prompt(prompt_text: str) -> str:
         prompt_norm = _normalize_field_text(prompt_text)
-        for employer in placement_employers:
+        for employer in sorted(placement_employers, key=len, reverse=True):
             if not employer:
                 continue
             employer_norm = _normalize_field_text(employer)
@@ -444,6 +444,13 @@ def create_app() -> Flask:
             on_off = "On"
         if "off campus" in prompt_norm or "off-campus" in prompt_norm:
             on_off = "Off"
+
+        if employer:
+            employer_tokens = set(_normalize_field_text(employer).split())
+            if employer_tokens:
+                prompt_tokens = [
+                    token for token in prompt_tokens if token not in employer_tokens
+                ]
 
         if discipline:
             discipline_tokens = set(_normalize_field_text(discipline).split())

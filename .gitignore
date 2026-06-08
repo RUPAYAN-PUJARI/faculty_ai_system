@@ -31,3 +31,21 @@ build/
 
 # Logs
 *.log
+
+# Generated embeddings and indexes (large binaries, regenerate with: python main.py build)
+embeddings/*.npy
+vector_db/*.index
+
+# Generated document JSON (regeneratable from source data)
+processed/*.json
+
+# Generated files
+*.pptx
+generate_ppt.py
+
+# Faculty / scholarship images (large assets — store in LFS or separately)
+faculty_images/
+scholarship_images/
+
+# Data files with potentially sensitive student records
+data/placement_details.csv

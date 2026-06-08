@@ -64,10 +64,11 @@ INTENT_FILTERS: list[tuple[tuple[str, ...], set[str]]] = [
     ),
     (("fee", "fees", "tuition", "payment"), {"fee", "fees", "tuition"}),
     (
-        ("timetable", "time table", "routine", "schedule"),
+        ("timetable", "time table", "routine", "schedule", "class schedule", "class routine"),
         {"routine", "timetable", "time table"},
     ),
-    (("calendar", "holiday", "holidays"), {"calendar", "holiday", "holidays"}),
+    (("calendar", "academic calendar", "institute calendar"), {"calendar", "institute calendar"}),
+    (("holiday", "holidays", "holiday list", "list of holidays"), {"holiday", "holidays", "list of holidays"}),
     (("library", "lending"), {"library", "central library"}),
     (("hostel",), {"hostel", "boys hostel", "girls hostel"}),
     (
@@ -93,6 +94,23 @@ INTENT_FILTERS: list[tuple[tuple[str, ...], set[str]]] = [
     (("scholarship", "scheme", "schemes"), {"scholarship", "scheme", "schemes"}),
 ]
 
+URL_PATH_HINTS: dict[str, list[str]] = {
+    "holiday": ["holiday", "holidays"],
+    "holidays": ["holiday", "holidays"],
+    "holiday list": ["holiday"],
+    "list of holidays": ["holiday"],
+    "routine": ["routine"],
+    "timetable": ["routine", "timetable"],
+    "calendar": ["institute-calendar", "calendar"],
+    "academic calendar": ["institute-calendar"],
+    "admission": ["admission"],
+    "hostel": ["hostel"],
+    "library": ["library"],
+    "sports": ["sports"],
+    "scholarship": ["scholarship"],
+    "contact": ["contact"],
+}
+
 
 def _normalize_rows(matrix: np.ndarray) -> np.ndarray:
     norms = np.linalg.norm(matrix, axis=1, keepdims=True)
@@ -113,6 +131,23 @@ def _intent_terms_for_query(query: str) -> set[str]:
     return terms
 
 
+def _url_path_hints_for_query(query: str) -> list[str]:
+    """Return URL path segments that strongly signal relevance for this query."""
+    query_lower = query.lower()
+    hints: list[str] = []
+    for trigger, segments in URL_PATH_HINTS.items():
+        if trigger in query_lower:
+            hints.extend(segments)
+    return list(dict.fromkeys(hints))  
+
+
+def _doc_matches_url_hints(doc: Dict[str, Any], url_hints: list[str]) -> bool:
+    if not url_hints:
+        return False
+    url_path = urlparse(doc.get("url", "")).path.lower()
+    return any(hint in url_path for hint in url_hints)
+
+
 def _doc_matches_terms(doc: Dict[str, Any], terms: set[str], include_content: bool = True) -> bool:
     if not terms:
         return True
@@ -121,6 +156,13 @@ def _doc_matches_terms(doc: Dict[str, Any], terms: set[str], include_content: bo
         parts.append(str(doc.get("content", "")))
     haystack = " ".join(parts).lower()
     return any(term in haystack for term in terms)
+
+
+def _title_url_relevance(doc: Dict[str, Any], query_tokens: list[str]) -> int:
+    """Count how many query tokens appear in title or URL path (for re-ranking)."""
+    url_path = urlparse(doc.get("url", "")).path.lower().replace("-", " ").replace("/", " ")
+    title = doc.get("title", "").lower()
+    return sum(1 for t in query_tokens if len(t) > 2 and (t in url_path or t in title))
 
 
 def _is_relevant_link(url: str) -> bool:
@@ -285,34 +327,48 @@ def search_web_documents(
         return []
 
     intent_terms = _intent_terms_for_query(query)
+    url_hints = _url_path_hints_for_query(query)
     query_tokens = [token for token in re.findall(r"[a-zA-Z0-9]+", query.lower()) if token]
-    strict_match = len(query_tokens) <= 2
+    strict_match = len(query_tokens) <= 4
 
     if not query.strip() or index is None:
-        results = documents[:top_k]
+        candidates = documents[:]
     else:
         model = SentenceTransformer(model_name)
         query_emb = model.encode([query], convert_to_numpy=True)
         query_emb = _normalize_rows(query_emb.astype("float32"))
-        scores, indices = index.search(query_emb, min(top_k, len(documents)))
-        results = [documents[idx] for idx in indices[0] if idx >= 0]
+        scores, indices = index.search(query_emb, min(max(top_k * 3, 12), len(documents)))
+        candidates = [documents[idx] for idx in indices[0] if idx >= 0]
+
+    if url_hints:
+        url_matched = [doc for doc in candidates if _doc_matches_url_hints(doc, url_hints)]
+        if not url_matched:
+            url_matched = [doc for doc in documents if _doc_matches_url_hints(doc, url_hints)]
+        if url_matched:
+            results = url_matched[:top_k]
+            enriched: List[Dict[str, Any]] = []
+            for doc in results:
+                item = dict(doc)
+                item["snippet"] = _build_snippet(doc.get("content", ""), query)
+                enriched.append(item)
+            return enriched
 
     if intent_terms:
-        filtered_results = [
-            doc for doc in results if _doc_matches_terms(doc, intent_terms, include_content=not strict_match)
+        filtered = [
+            doc for doc in candidates
+            if _doc_matches_terms(doc, intent_terms, include_content=not strict_match)
         ]
-        if filtered_results:
-            results = filtered_results
-        else:
-            intent_matches = [
-                doc
-                for doc in documents
-                if _doc_matches_terms(doc, intent_terms, include_content=not strict_match)
+        if not filtered:
+            filtered = [
+                doc for doc in documents
+                if _doc_matches_terms(doc, intent_terms, include_content=False)
             ]
-            if intent_matches:
-                results = intent_matches[:top_k]
+        if filtered:
+            filtered.sort(key=lambda d: _title_url_relevance(d, query_tokens), reverse=True)
+            candidates = filtered
 
-    enriched: List[Dict[str, Any]] = []
+    results = candidates[:top_k]
+    enriched = []
     for doc in results:
         item = dict(doc)
         item["snippet"] = _build_snippet(doc.get("content", ""), query)
