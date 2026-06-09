@@ -358,11 +358,13 @@ def create_app() -> Flask:
 
     def _extract_employer_from_prompt(prompt_text: str) -> str:
         prompt_norm = _normalize_field_text(prompt_text)
+        prompt_key = prompt_norm.replace(" ", "")
         for employer in sorted(placement_employers, key=len, reverse=True):
             if not employer:
                 continue
             employer_norm = _normalize_field_text(employer)
-            if employer_norm and employer_norm in prompt_norm:
+            employer_key = employer_norm.replace(" ", "")
+            if employer_key and employer_key in prompt_key:
                 return employer
         return ""
 
@@ -377,7 +379,7 @@ def create_app() -> Flask:
             if re.search(rf"\b{abbrev}\b", prompt_lower):
                 return full
         for discipline in placement_disciplines:
-            if discipline and discipline.lower() in prompt_lower:
+            if discipline and re.search(rf"\b{re.escape(discipline.lower())}\b", prompt_lower):
                 return discipline
         return ""
 
@@ -446,10 +448,14 @@ def create_app() -> Flask:
             on_off = "Off"
 
         if employer:
-            employer_tokens = set(_normalize_field_text(employer).split())
+            employer_norm = _normalize_field_text(employer)
+            employer_tokens = set(employer_norm.split())
+            employer_key = employer_norm.replace(" ", "")
             if employer_tokens:
                 prompt_tokens = [
-                    token for token in prompt_tokens if token not in employer_tokens
+                    token
+                    for token in prompt_tokens
+                    if token not in employer_tokens and token != employer_key
                 ]
 
         if discipline:
@@ -462,7 +468,7 @@ def create_app() -> Flask:
         results = []
         source_records = records if records is not None else placement_records
         for record in source_records:
-            if employer and employer.lower() not in record.get("employer", "").lower():
+            if employer and employer.lower().replace(" ", "") not in record.get("employer", "").lower().replace(" ", ""):
                 continue
             if discipline and discipline.lower() != record.get("discipline", "").lower():
                 continue
@@ -881,6 +887,25 @@ def create_app() -> Flask:
         if not prompt:
             return jsonify({"error": "Prompt is required"}), 400
         try:
+            _greetings = {
+                "hi", "hello", "hey", "hiya", "howdy", "greetings", "sup", "yo",
+                "good morning", "good afternoon", "good evening", "good night",
+            }
+            _prompt_clean = re.sub(r"[!.,?]+$", "", prompt.lower().strip())
+            if _prompt_clean in _greetings:
+                return jsonify({
+                    "answer": (
+                        "Hi! I'm the BPPIMT Campus Assistant. I can help you with:\n"
+                        "- Faculty — search by name, department, or designation\n"
+                        "- Placements — records by company, discipline, or year\n"
+                        "- Scholarships — find schemes by eligibility\n"
+                        "- Campus info — admissions, courses, facilities, and more\n\n"
+                        "What would you like to know?"
+                    ),
+                    "results": [],
+                    "filters": {},
+                })
+
             prompt_lower = prompt.lower()
             list_intent = any(
                 keyword in prompt_lower
@@ -914,7 +939,12 @@ def create_app() -> Flask:
                     limit = 50
                 model_name = payload.get("model", "sentence-transformers/all-MiniLM-L6-v2")
                 placement_candidates = placement_records
-                if placement_documents and placement_index is not None:
+                _has_keyword_filter = bool(
+                    _extract_employer_from_prompt(prompt)
+                    or _extract_discipline_from_prompt(prompt)
+                    or _extract_years_from_prompt(prompt)
+                )
+                if not _has_keyword_filter and placement_documents and placement_index is not None:
                     vector_hits = _vector_candidates(
                         prompt,
                         placement_documents,
