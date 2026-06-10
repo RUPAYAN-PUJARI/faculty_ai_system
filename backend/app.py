@@ -824,6 +824,67 @@ def create_app() -> Flask:
             return int(match.group(1))
         return None
 
+    # Head of Department mapping: canonical department name -> faculty id.
+    hod_by_department = {
+        "Computer Science & Engineering": "1",
+        "Electronics & Communication Engineering": "28",
+        "Electrical Engineering": "46",
+        "Information Technology": "56",
+        "Applied Science & Humanities": "86",
+    }
+    # Preserve a stable display order for "all HODs" queries.
+    hod_department_order = [
+        "Computer Science & Engineering",
+        "Information Technology",
+        "Electronics & Communication Engineering",
+        "Electrical Engineering",
+        "Applied Science & Humanities",
+    ]
+
+    # Ordered (most specific first) department patterns for HOD queries.
+    # Word boundaries prevent short codes (it/ee/cs) matching inside other words.
+    hod_department_patterns = [
+        (
+            "Computer Science & Engineering",
+            [r"\bcse\b", r"\bcomputer science\b", r"\bcomputer\b", r"\bcs\b"],
+        ),
+        ("Information Technology", [r"\binformation technology\b", r"\bit\b"]),
+        ("Electronics & Communication Engineering", [r"\bece\b", r"\belectronics\b"]),
+        ("Electrical Engineering", [r"\bee\b", r"\belectrical\b"]),
+        (
+            "Applied Science & Humanities",
+            [r"\bash\b", r"\bapplied science", r"\bhumanities\b"],
+        ),
+    ]
+
+    def _is_hod_intent(prompt_text: str) -> bool:
+        text = prompt_text.lower()
+        if re.search(r"\bhods?\b", text):
+            return True
+        if re.search(r"\bheads?\s+of\s+(the\s+)?departments?\b", text):
+            return True
+        return bool(re.search(r"\bdepartments?\s+heads?\b", text))
+
+    def _resolve_hod_department(prompt_text: str) -> str:
+        text = prompt_text.lower()
+        for department, patterns in hod_department_patterns:
+            if any(re.search(pattern, text) for pattern in patterns):
+                return department
+        return ""
+
+    def _hod_doc_for_department(department: str) -> Optional[Dict[str, Any]]:
+        faculty_id = hod_by_department.get(department)
+        if not faculty_id:
+            return None
+        for doc in documents:
+            if str(doc.get("id")) == faculty_id:
+                entry = dict(doc)
+                filename = _find_image_for_id(entry.get("id"))
+                if filename:
+                    entry["image_url"] = f"/images/{filename}"
+                return entry
+        return None
+
     @app.get("/")
     def index() -> Any:
         return send_from_directory(app.static_folder, "index.html")
@@ -907,6 +968,36 @@ def create_app() -> Flask:
                 })
 
             prompt_lower = prompt.lower()
+
+            if _is_hod_intent(prompt):
+                hod_department = _resolve_hod_department(prompt)
+                if hod_department:
+                    hod_doc = _hod_doc_for_department(hod_department)
+                    if hod_doc:
+                        answer = (
+                            f"The Head of Department of {hod_department} is "
+                            f"{hod_doc.get('name')}."
+                        )
+                        return jsonify({"answer": answer, "results": [hod_doc], "filters": {}})
+                    return jsonify(
+                        {
+                            "answer": f"No Head of Department is on record for {hod_department}.",
+                            "results": [],
+                            "filters": {},
+                        }
+                    )
+                hod_docs = [
+                    doc
+                    for department in hod_department_order
+                    if (doc := _hod_doc_for_department(department)) is not None
+                ]
+                if hod_docs:
+                    lines = [
+                        f"- {doc.get('department')}: {doc.get('name')}" for doc in hod_docs
+                    ]
+                    answer = "Heads of Department:\n" + "\n".join(lines)
+                    return jsonify({"answer": answer, "results": hod_docs, "filters": {}})
+
             list_intent = any(
                 keyword in prompt_lower
                 for keyword in ["show", "list", "all", "display", "faculty", "teachers"]
